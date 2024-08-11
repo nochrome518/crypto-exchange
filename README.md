@@ -1,12 +1,14 @@
 ## Pre Installation
-# download kafka, from the downloaded repository, run below scripts in separate terminals.
-# NOTE: below commands is used only for windows.
-
+download kafka, from the downloaded repository, run below scripts in separate terminals.
+NOTE: below commands is used only for windows.
+```bash
 $ bin\windows\zookeeper-server-start.bat config\zookeeper.properties
+```
+```bash
 $ bin\windows\kafka-server-start.bat config\server.properties
-
+```
 # Setting Env
-# rename example.env => .env , then and replace USER_NAME and PASSWORD with your db credentials.
+rename example.env => .env , then and replace USER_NAME and PASSWORD with your db credentials.
 
 
 ## Installation
